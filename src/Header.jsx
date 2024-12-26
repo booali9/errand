@@ -37,14 +37,14 @@ function Header() {
     <div className="container mx-auto flex justify-between items-center px-4">
       {/* Logo */}
       <div   onClick={handleNavigate}    className="flex lg:ml-14 items-center space-x-4">
-        <img src={Logo} className="w-32 h-20 object-contain" alt="" />
+        <img src={Logo} className="w-32 h-20  " alt="" />
       </div>
   
       {/*  Navigation Links (Desktop) */}
       <nav className="hidden md:flex space-x-4">
         <a href="/" className="flex flex-col items-center text-gray-700 hover:text-[#0fb8ce] transition text-sm">
           <FaHome className="w-4 h-4 mb-1" />
-          <span>Home</span>
+          <span>Home</span> 
         </a>
         <a href="/about" className="flex flex-col items-center text-gray-700 hover:text-[#0fb8ce] transition text-sm">
           <FaInfoCircle className="w-4 h-4 mb-1" />

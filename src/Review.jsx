@@ -34,7 +34,7 @@ const Review = () => {
           <div
             key={index}
             className="bg-[#253947] p-6 rounded-lg text-teal-200 flex flex-col items-center md:items-start text-center md:text-left"
-          >  
+          >       
             <div className="flex flex-col items-center md:flex-row md:items-start mb-4">
               {/* Avatar */}
               <Avatar
@@ -52,6 +52,7 @@ const Review = () => {
                   {testimonial.company}
                 </p>
               </div>
+              
             </div>
             {/* Quote */}
             <p className="mt-4 text-[#dbdee1]" style={{ fontSize: '16px' }}>
