@@ -36,9 +36,11 @@ function Header() {
     <header className=" bg-white shadow-md  absolute top-0 left-0 w-full z-50 py-0">
     <div className="container mx-auto flex justify-between items-center px-4">
       {/* Logo */}
-      <div   onClick={handleNavigate}    className="flex lg:ml-14 items-center space-x-4">
-        <img src={Logo} className="w-32 h-20  " alt="" />
-      </div>
+      <div onClick={handleNavigate} className="flex lg:ml-14 items-center space-x-4">
+  <img src={Logo} className="w-32 h-20 sm:w-32 sm:h-20 object-contain sm:object-fill" alt="" />
+</div>
+
+
   
       {/*  Navigation Links (Desktop) */}
       <nav className="hidden md:flex space-x-4">
