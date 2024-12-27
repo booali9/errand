@@ -135,7 +135,7 @@ function Header() {
             onClick={closeMenu}
             className="flex flex-col items-center text-gray-700 hover:text-[[#0fb8ce] transition text-sm"
           >
-            <FaInfoCircle className="w-6 h-6 mb-1" />
+            <FaInfoCircle className="w-4 h-4 mb-1" />
             <span>About Us</span>
           </a>
           <a
