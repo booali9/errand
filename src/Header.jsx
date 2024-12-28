@@ -198,7 +198,7 @@ function Header() {
 
 
     {/* Contact Info */}
-    <div className="flex flex-col items-center text-gray-700 text-sm">
+    <div className="flex flex-col items-center space-y-6 text-gray-700 text-sm">
       <span style={{ fontSize: '20px' }}>📞 +971586308281</span>
       <button
         onClick={() => (window.location.href = "/contact")}
