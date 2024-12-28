@@ -11,7 +11,7 @@ const Services = () => {
         Our Services
       </h2>
       
-      <div className="grid grid-cols-1 mt-2 md:grid-cols-3 gap-6 max-w-5xl">
+      <div className="grid grid-cols-1  md:grid-cols-3 gap-6 max-w-5xl">
         {/* Service 1 */}
         <div className="flex flex-col items-center p-4 text-center">
           <img 

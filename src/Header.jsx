@@ -37,7 +37,7 @@ function Header() {
     <div className="container mx-auto flex justify-between items-center px-4">
       {/* Logo */}
       <div onClick={handleNavigate} className="flex lg:ml-14 items-center space-x-4">
-  <img src={Logo} className="w-44 h-24 sm:w-32 sm:h-20 object-contain sm:object-fill" alt="" />
+  <img src={Logo} className="w-44 h-20 sm:w-auto -ml-2 lg:-ml-8 sm:h-20 object-contain sm:object-fill" alt="" />
 </div>
 
 
@@ -83,11 +83,11 @@ function Header() {
 </nav>
 
       {/* Phone Number and Contact Us */}
-      <div className="hidden md:flex items-center gap-2">
-        <span className="text-gray-700 text-xs">📞 +971586308281</span>
+      <div className="hidden md:flex  items-center gap-6">
+        <span className="text-gray-700 mt-4 text-xl">📞 +971586308281</span>
         <button
           onClick={() => navigate("/contact")}
-          className="px-4 py-1 border border-[#0e95ab] text-[#0e859a] text-xs font-medium rounded-full hover:bg-[#0fb8ce] hover:text-[#0D3B66] transition-colors"
+          className="px-4 py-4 border border-[#0e95ab] text-[#0e859a] text-[16px] font-medium rounded-full hover:bg-[#0fb8ce] hover:text-[#0D3B66] transition-colors"
         >
           Contact Us
         </button>
@@ -174,7 +174,7 @@ function Header() {
             <span className="text-gray-700 text-xs">📞 +971586308281</span>
             <button
               onClick={() => (window.location.href = "/contact")}
-              className="px-4 py-1 border border-[#0e95ab] text-[#0e859a] text-xs font-medium rounded-full hover:bg-[#0fb8ce] hover:text-[#0D3B66] transition-colors"
+              className="px-4 py-4 border border-[#0e95ab] text-[#0e859a] text-xs font-medium rounded-full hover:bg-[#0fb8ce] hover:text-[#0D3B66] transition-colors"
             >
               Contact Us
             </button>

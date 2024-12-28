@@ -11,7 +11,7 @@ const About = () => {
         backgroundPosition: 'center',
         minHeight: '60vh',
       }}
-      className="flex items-center justify-center text-white px-8 py-1"  
+      className="flex items-center justify-center text-white px-8 py-0"  
     >
       <div className="p-10 rounded-lg max-w-3xl text-center">
         <h1 className="text-4xl lg:text-5xl text-[#0fb8ce] mb-8" style={{ fontSize: '36px' }}>
