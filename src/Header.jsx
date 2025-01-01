@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaHome, FaInfoCircle, FaEnvelope, FaServicestack, FaChevronDown } from "react-icons/fa";
+import { FaHome, FaInfoCircle, FaEnvelope, FaServicestack, FaChevronDown,FaPhoneAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Logo from "./assets/Logo4.jpeg"
 
@@ -84,7 +84,7 @@ function Header() {
 
       {/* Phone Number and Contact Us */}
       <div className="hidden md:flex  items-center gap-6">
-        <span className="text-gray-700 mt-4 text-xl">📞 +971586308281</span>
+        <span className="text-gray-700 mt-4 flex text-xl"> <FaPhoneAlt className="w-6 h-6 mr-2 text-black" />+971586308281</span>
         <button
           onClick={() => navigate("/contact")}
           className="px-4 py-4 border border-[#0e95ab] text-[#0e859a] text-[16px] font-medium rounded-full hover:bg-[#0fb8ce] hover:text-[#0D3B66] transition-colors"
@@ -199,7 +199,7 @@ function Header() {
 
     {/* Contact Info */}
     <div className="flex flex-col items-center space-y-6 text-gray-700 text-sm">
-      <span style={{ fontSize: '20px' }}>📞 +971586308281</span>
+      <span className="flex" style={{ fontSize: '20px' }}><FaPhoneAlt className="w-6 h-6 mr-2 text-black" /> +971586308281</span>
       <button
         onClick={() => (window.location.href = "/contact")}
         className="px-4 py-4 border border-[#0e95ab] text-[#0e859a] text-sm font-medium rounded-full hover:bg-[#0fb8ce] hover:text-[#0D3B66] transition-colors mt-2"

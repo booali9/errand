@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="text-[#f1f3f4] mb-4">971586308281</p>
 
           <h3 className="text-lg font-semibold mb-2">EMAIL</h3>
-          <p className="text-[#f1f3f4] mb-4">hello@reallygreatsite.com</p>
+          <p className="text-[#f1f3f4] mb-4">info@techerrand.com</p>
 
           <h3 className="text-lg font-semibold mb-4">SOCIAL</h3>
           <div className="flex space-x-4 justify-start"> {/* Changed to justify-start for left alignment */}
