@@ -6,49 +6,51 @@ import service3 from './assets/Services3.png';
 
 const Services = () => {
   return (
-    <div className="bg-[#0c2b40] text-white px-8 py-6 lg:px-16 lg:py-8 flex flex-col items-center">
-      <h2 className="text-[#0ea0b5] text-center" style={{ fontSize: '32px', marginTop: '10px', marginBottom: '15px' }}>
-        Our Services
-      </h2>
-      
-      <div className="grid grid-cols-1  md:grid-cols-3 gap-6 max-w-5xl">
+    <div className="min-h-screen bg-[#0c2b40] text-white px-8 py-8 lg:px-20 lg:py-32 flex flex-col items-center">
+      <h2 className="text-[#0ea0b5] mb-6 text-center" style={{ fontSize: '36px' }}>Our Services</h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl">
         {/* Service 1 */}
-        <div className="flex flex-col items-center p-4 text-center">
+        <div className="flex flex-col items-center p-6 text-center">
           <img 
             src={service1} 
-            alt="Managed IT Services" 
-            className="w-full h-64 object-cover mb-3 max-w-[300px] mx-auto"
+            alt="Website Development" 
+            className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
           />
-          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '18px' }}>Managed IT Services</h3>
-          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '14px' }}>
-            Give a detailed description of the service being provided here.
-          </p>
+          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Website Development</h3>
+          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>We create stunning, user-friendly designs powered by seamless functionality. Our advanced technology ensures smooth navigation, responsiveness, and high performance for business growth.</p>
         </div>
 
         {/* Service 2 */}
-        <div className="flex flex-col items-center p-4 rounded-lg text-center">
+        <div className="flex flex-col items-center p-6 rounded-lg text-center">
           <img 
             src={service2} 
-            alt="IT Security" 
-            className="w-full h-64 object-cover mb-3 max-w-[300px] mx-auto"
+            alt="Search Engine Marketing" 
+            className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
           />
-          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '18px' }}>IT Security</h3>
-          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '14px' }}>
-            Give a detailed description of the service being provided here.
-          </p>
+          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Search Engine Marketing</h3>
+          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>Dominate search engine platforms like Google with tailored marketing solutions. Boost and optimize performance with proven strategies designed to maximize online visibility and drive targeted traffic.</p>
         </div>
 
         {/* Service 3 */}
-        <div className="flex flex-col items-center p-4 rounded-lg text-center">
+        <div className="flex flex-col items-center p-6 rounded-lg text-center">
           <img 
             src={service3} 
-            alt="IT Consulting" 
-            className="w-full h-64 object-cover mb-3 max-w-[300px] mx-auto"
+            alt="Social Media" 
+            className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
           />
-          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '18px' }}>IT Consulting</h3>
-          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '14px' }}>
-            Give a detailed description of the service being provided here.
-          </p>
+          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Social Media</h3>
+          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>From content creation to management, we craft compelling social media strategies that captivate your audience and build brand loyalty.</p>
+        </div>
+         {/* Service 4 */}
+        <div className="flex flex-col items-center p-6 rounded-lg text-center">
+          <img 
+            src={service3} 
+            alt="Social Media" 
+            className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
+          />
+          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Social Media</h3>
+          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>From content creation to management, we craft compelling social media strategies that captivate your audience and build brand loyalty.</p>
         </div>
       </div>
     </div>
