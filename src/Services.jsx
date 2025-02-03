@@ -43,15 +43,27 @@ const Services = () => {
           <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>From content creation to management, we craft compelling social media strategies that captivate your audience and build brand loyalty.</p>
         </div>
          {/* Service 4 */}
-        <div className="flex flex-col items-center p-6 rounded-lg text-center">
+      <div className="flex flex-col items-center p-6 rounded-lg text-center">
+          <img 
+            src={service2} 
+            alt="Social Media" 
+            className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
+          />
+          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Lead Generation</h3>
+          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>Smart, targeted lead generation campaigns that connect your business with high-quality prospects and boost conversions.</p>
+        </div>
+        
+         {/* Service 5*/}
+      <div className="flex flex-col items-center p-6 rounded-lg text-center">
           <img 
             src={service3} 
             alt="Social Media" 
             className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
           />
-          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Social Media</h3>
-          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>From content creation to management, we craft compelling social media strategies that captivate your audience and build brand loyalty.</p>
+          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Quality Assurance</h3>
+          <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>Ensure top-tier quality with rigorous testing. From functionality to user experience, we eliminate errors, enhance performance, and deliver excellence.</p>
         </div>
+
       </div>
     </div>
   );
