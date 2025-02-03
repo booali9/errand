@@ -3,6 +3,8 @@ import './index.css';
 import service1 from './assets/Services1.png'; // Replace with your actual image path
 import service2 from './assets/Services2.png';
 import service3 from './assets/Services3.png';
+import service4 from './assets/Services4.jpeg';
+import service5 from './assets/Services5.jpeg';
 
 const Services = () => {
   return (
@@ -45,22 +47,22 @@ const Services = () => {
          {/* Service 4 */}
       <div className="flex flex-col items-center p-6 rounded-lg text-center">
           <img 
-            src={service2} 
+            src={service5} 
             alt="Social Media" 
             className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
           />
-          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Lead Generation</h3>
+          <h3 className="font-medium text-[#0ea0b5]  mb-2" style={{ fontSize: '21px' }}>Lead Generation</h3>
           <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>Smart, targeted lead generation campaigns that connect your business with high-quality prospects and boost conversions.</p>
         </div>
         
          {/* Service 5*/}
       <div className="flex flex-col items-center p-6 rounded-lg text-center">
           <img 
-            src={service3} 
+            src={service4} 
             alt="Social Media" 
             className="w-full h-64 object-cover mb-6 max-w-[300px] mx-auto"
           />
-          <h3 className="font-medium text-[#0ea0b5] mb-2" style={{ fontSize: '21px' }}>Quality Assurance</h3>
+          <h3 className="font-medium text-[#0ea0b5] object-contain mb-2" style={{ fontSize: '21px' }}>Quality Assurance</h3>
           <p className="text-sm text-[#f2f3f5]" style={{ fontSize: '18px' }}>Ensure top-tier quality with rigorous testing. From functionality to user experience, we eliminate errors, enhance performance, and deliver excellence.</p>
         </div>
 
