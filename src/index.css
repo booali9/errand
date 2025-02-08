@@ -6,4 +6,12 @@
 body {
     font-family: 'Poppins', sans-serif;
   }
-  
+  /* Example custom CSS for tablet responsiveness */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-6xl {
+    font-size: 3.75rem; /* Adjust font size for tablets */
+  }
+  .w-36 {
+    width: 9rem; /* Adjust button width for tablets */
+  }
+}

@@ -38,10 +38,14 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Logo */}
         <div onClick={handleNavigate} className="flex lg:ml-14 items-center space-x-4">
-          <img src={Logo} className="w-44 h-20 sm:w-auto -ml-2 lg:-ml-8 sm:h-20 object-contain sm:object-fill" alt="" />
+          <img
+            src={Logo}
+            className="w-44 h-20 sm:w-auto -ml-2 lg:-ml-8 sm:h-20 object-contain sm:object-fill"
+            alt="Logo"
+          />
         </div>
 
-        {/* Navigation Links (Desktop) */}
+        {/* Navigation Links (Desktop and Tablet) */}
         <nav className="hidden md:flex space-x-6">
           <a href="/" className="flex flex-col items-center text-gray-700 hover:text-[#0fb8ce] transition text-base">
             <FaHome className="w-5 h-5 mb-1" />
@@ -66,7 +70,7 @@ function Header() {
               </span>
             </button>
             {dropdownOpen && (
-              <div className="absolute top-8 left-0 bg-white border shadow-lg rounded-md z-40">
+              <div className="absolute top-12 left-0 bg-white border shadow-lg rounded-md z-40">
                 <ul className="py-2">
                   <li><a href="/services" className="block px-4 py-2 hover:bg-blue-100 text-base">Web Development</a></li>
                   <li><a href="/services" className="block px-4 py-2 hover:bg-blue-100 text-base">Digital Marketing</a></li>
@@ -79,7 +83,7 @@ function Header() {
           </div>
         </nav>
 
-        {/* Phone Number and Contact Us */}
+        {/* Phone Number and Contact Us (Desktop and Tablet) */}
         <div className="hidden md:flex items-center gap-6">
           <span className="text-gray-700 mt-4 flex text-xl">
             <FaPhoneAlt className="w-6 h-6 mr-2 text-black" />+971586308281
