@@ -4,7 +4,7 @@ import home from './assets/2.png';
 
 const Mainfile = () => {
   return (
-    <div className="relative flex flex-col lg:flex-row items-center min-h-screen bg-[#0c2b40] text-white px-4 sm:px-8 lg:px-20 py-32 sm:py-16 lg:py-32">
+    <div className="relative flex flex-col lg:flex-row items-center min-h-screen bg-[#0c2b40] text-white px-4 sm:px-8 lg:px-20 py-[10%] sm:py-[12%] lg:py-32">
       {/* Left Text Section */}
       <div className="flex flex-col space-y-6 lg:w-1/2 text-left md:pl-8 lg:pr-8">
         <h1 className="text-6xl sm:text-6xl md:text-7xl lg:text-7xl font-light leading-tight text-[#0facc2] font-[YAFdJi-0PQg 0]">
